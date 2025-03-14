@@ -1,0 +1,822 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.png);
+    position: relative;
+    
+    width: 1100px;
+    height: 3000px;
+}
+.alltopic{
+    background-color:rgb(74, 74, 74);width: 1519px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 10px 0px 10px 15px;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    
+}
+.hmhm{
+    margin-left: 0px;
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+.abab{
+    margin-left: 0px;
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+.prpr{
+    margin-left: 0px;
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+.coco{
+    margin-left: 0px;
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+.popo{
+    margin-left: 0px;
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+
+.hmhm{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.hmhm:hover{
+    transition: all 0.4s ease-in-out;
+    font-size: 24px;
+    color: greenyellow;
+
+}
+
+
+.abab{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.abab:hover{
+    transition: all 0.4s ease-in-out;
+    font-size: 24px;
+    color: red;
+
+}
+
+.prpr{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.prpr:hover{
+    transition: all 0.4s ease-in-out;
+    font-size: 24px;
+    color: yellow;
+
+}
+
+.popo{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.popo:hover{
+    transition: all 0.4s ease-in-out;
+    font-size: 24px;
+    color: aqua;
+
+}
+
+.coco{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.coco:hover{
+    transition: all 0.4s ease-in-out;
+    font-size: 24px;
+    color: blue;
+
+}
+
+.Other{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 1050px;
+    gap: 20px;
+    position: sticky;
+}
+.content{
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    position: absolute;
+    margin-left: 267px;
+    margin-top: 80px;
+    animation: myme 2s ease-in-out infinite; 
+}
+
+@keyframes myme {
+    0%{
+        margin-top: 80px;
+    }
+    50%{
+        margin-top: 95px;
+        
+    }
+    100%{
+        margin-top: 80px;
+
+    }
+}
+
+.content:hover{
+    transition: all 0.4s ease-in-out;
+    color: black;
+    
+    
+
+}
+
+.Hello{
+    color: rgb(238, 238, 56)
+}
+.best{
+    color: blue;
+}
+
+.welcom{
+    color: green;
+}
+.site{
+    color: red;
+}
+.code{
+    color: blueviolet;
+    margin-left: 420px;
+    margin-bottom: 10px;
+}
+.code2{
+    color: green;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+.me{
+    background-image: url(me2.png);width: 652.8px;height: 620.8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+    margin-left: 850px;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.me:hover{
+    width: 720.8px;height: 690.8px;
+    margin-top: 95px;
+    transition: all 0.4s ease-in-out;
+}
+
+.com{
+    background-image: url(computer.png);width: 1024px;height: 590px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.noto-sans-thai-uniquifier {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
+@media (max-width: 720px) {
+    .Other{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        margin-left: 0px;
+        gap: 20px;
+    
+    }
+    .alltopic {
+        background-color:rgb(74, 74, 74);width: 1519px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        justify-items: center;
+        padding: 10px 0px 10px 15px;
+        color: rgb(255, 255, 255);
+    }
+    .me{
+        background-image: url(me2.png);width: 180px;height: 179px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 3;
+        margin-left: 230px;
+        margin-top: 70px;
+        cursor: pointer;  
+    }
+    .me:hover{
+        width: 208px;height: 209px;
+        margin-top: 45px;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .com{
+        background-image: url(computer.png);width: 294.8px;height: 208px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        position: relative;
+        cursor: pointer;   
+    }
+    .content{
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 25px;
+        font-size: xx-small;
+        animation: myme 2s ease-in-out infinite; 
+    
+    }
+
+    @keyframes myme {
+        0%{
+            margin-top: 25px;
+        }
+        50%{
+            margin-top: 32px;
+            
+        }
+        100%{
+            margin-top: 25px;
+    
+        }
+    }
+
+    .Hello{
+        color: rgb(238, 238, 56);
+        font-size: 5.5px;
+    }
+    .best{
+        color: blue;
+        font-size: 5.9px;
+    }
+    
+    .welcom{
+        color: green;
+        font-size: 5.9px;
+    }
+    .site{
+        color: red;
+        font-size: 5.9px;
+    }
+    .code{
+        color: blueviolet;
+        font-size: 5.9px;
+        margin-left: 126px;
+    }
+
+    .code2{
+        color: green;
+        font-size: 5.9px;
+    }
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    width: 533px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url(team.jpg);
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    animation: video 3s step-end infinite;
+}
+
+@keyframes video {
+    0%{
+        background-image: url(team.jpg);
+        width: 533px;
+        height: 300px;
+    }
+    25%{
+        background-image: url(bro.jpg);
+        background-size: cover;
+        width: 533px;
+        height: 300px;
+    }
+    50%{
+        background-image: url(money.jpg);
+        background-size: cover;
+        width: 533px;
+        height: 300px;
+    }
+    75%{
+        background-image: url(china.jpg);
+        background-size: cover;
+        width: 533px;
+        height: 300px;
+    }
+    100%{
+        background-image: url(team.jpg);
+        width: 533px;
+        height: 300px;
+        transition: all 0.2s ease-out;
+    }
+}
+
+.dis img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-top: 10px;
+}
+
+.dis img:hover{
+    width: 80px;
+    height: 80px;
+
+
+
+}
+.dis{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.view{
+    margin-left: 10px;
+}
+.view p{
+    color: rgb(149, 148, 148);
+}
+.photo2{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    left: 480px;
+    top: 261px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.white{
+    background-color: white;
+    position: relative;
+    width: 533px;
+    height: 420px;
+    margin-top: 140px;
+    margin-left: 75px;
+    
+}
+.view{
+    font-size: larger;
+    margin-top: 10px;
+}
+.old{
+    transition: all 0.4s ease-in-out;
+}
+
+.old:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.proo{
+        background-image: url(python.jpg);width: 633px;height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 3;
+        margin-left: 700px;
+        margin-top: 50px;
+        border: 5px solid rgb(0, 255, 68);
+        cursor: pointer;
+        animation: video2 9s step-start infinite;
+        
+}
+       
+@keyframes video3{
+    0%{
+        border: 10px solid red;
+    }
+    25%{
+        border: 10px solid greenyellow;
+    }
+    50%{
+        border: 10px solid aqua;
+    }
+    75%{
+        border: 10px solid yellow;
+    }
+    100%{
+        border: 10px solid red;
+    }
+}
+
+
+
+
+
+@keyframes video2 {
+    0%{
+        background-image: url(python.jpg);
+        width: 633px;
+        height: 400px;
+    }
+    25%{
+        background-image: url(us.jpg);
+        background-size: cover;
+        width: 633px;
+        height: 400px;
+    }
+    50%{
+        background-image: url(worry.jpg);
+        background-size: cover;
+        width: 633px;
+        height: 400px;
+    }
+    75%{
+        background-image: url(proof.jpg);
+        background-size: cover;
+        width: 633px;
+        height: 400px;
+    }
+    100%{
+        background-image: url(python.jpg);
+        width: 633px;
+        height: 400px;
+    }
+}
+
+.textbox{
+    background-image: url(textbox.png);width: 1400px;height: 800px;
+    background-size: cover;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    position: relative;
+}
+
+.kkk{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 313.5px;
+}
+.pj{
+    color: red;
+}
+.act{
+    color: blue;
+}
+.sch{
+    color: blueviolet;
+}
+.cer{
+    background-image: url(cer.jpg);
+    position: absolute;
+    background-size: cover;
+    width: 160px;
+    height: 120px;
+    margin-top: 450px;
+    margin-left: 353.5px;
+}
+a{
+    margin-left: 315px;
+}
+
+@media (max-width:720px){
+    .photo{
+        width: 533px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-image: url(team.jpg);
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+        animation: video 3s step-end infinite;
+        
+    }
+    @keyframes video {
+        0%{
+            background-image: url(team.jpg);
+            width: 129.875px;
+            height: 90.5px;
+            
+        }
+        25%{
+            background-image: url(bro.jpg);
+            background-size: cover;
+            width: 129.875px;
+            height: 90.5px;
+            
+        }
+        50%{
+            background-image: url(money.jpg);
+            background-size: cover;
+            width: 129.875px;
+            height: 90.5px;
+        }
+        75%{
+            background-image: url(china.jpg);
+            background-size: cover;
+            width: 129.875px;
+            height: 90.5px;
+            
+        }
+        100%{
+            background-image: url(team.jpg);
+            width: 129.875px;
+            height: 90.5px;
+            
+            transition: all 0.2s ease-out;
+        }
+    }
+    .proo{
+        background-image: url(python.jpg);width: 199.875px;height: 112.5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 3;
+        margin-left: 135px;
+        margin-top: 50px;
+        border: 2px solid rgb(0, 255, 68);
+        cursor: pointer;
+        animation: video2 9s step-start infinite;
+
+    
+
+    
+    }
+    @keyframes video3{
+        0%{
+            border: 5px solid red;
+        }
+        25%{
+            border: 5px solid greenyellow;
+        }
+        50%{
+            border: 5px solid aqua;
+        }
+        75%{
+            border: 5px solid yellow;
+        }
+        100%{
+            border: 5px solid red;
+        }
+    }
+
+    @keyframes video2 {
+        0%{
+            background-image: url(python.jpg);
+            width: 199.875px;
+            height: 112.5px;
+        }
+        25%{
+            background-image: url(us.jpg);
+            background-size: cover;
+            width: 199.875px;
+            height: 112.5px;
+        }
+        50%{
+            background-image: url(worry.jpg);
+            background-size: cover;
+            width: 199.875px;
+            height: 112.5px;
+        }
+        75%{
+            background-image: url(proof.jpg);
+            background-size: cover;
+            width: 199.875px;
+            height: 112.5px;
+        }
+        100%{
+            background-image: url(python.jpg);
+            width: 199.875px;
+            height: 112.5px;
+        }
+    }
+
+    .dis img{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    
+    .dis img:hover{
+        width: 40px;
+        height: 40px;
+    
+    
+    
+    }
+    .dis{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .view{
+        margin-left: 5px;
+    }
+    .view p{
+        color: rgb(149, 148, 148);
+    }
+    .photo2{
+        background: rgba(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        left: 110px;
+        top: 75px;
+        border-radius: 5px;
+        font-size: 7px;
+    }
+    
+    .white{
+        background-color: white;
+        width: 129.67px;
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 20px;
+    
+        
+    }
+    .view{
+        font-size: 7px;
+        margin-top: 2px;
+        
+    }
+    .old{
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .old:hover{
+        color: blue;
+        cursor: pointer;
+    }
+    .textbox{
+        background-image: url(textbox.png);width: 350px;height: 200px;
+        background-size: cover;
+        margin-left: 40px;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        position: relative;
+    }
+    
+    .kkk{
+        position: absolute;
+        margin-top: 56px;
+        margin-left: 78px;
+        font-size: 4px;
+    }
+    .pj{
+        color: red;
+    }
+    .act{
+        color: blue;
+    }
+    .sch{
+        color: blueviolet;
+    }
+    .cer{
+        background-image: url(cer.jpg);
+        position: absolute;
+        background-size: cover;
+        width: 40px;
+        height: 30px;
+        margin-top: 110px;
+        margin-left: 90px;
+    }
+    .dan{
+        margin-left: 65px;
+    }
+
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color:rgb(23, 184, 184);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: rgb(38, 171, 171);
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 300px;
+  }
+  .g{
+    color: red;
+  }
+  .ph{
+    color: blue;
+  }
+
+
+  :root {
+    
+    --bg:#1e1e1e;
+    --accent-color:#3ae1ff;
+    --text-color:white;
+}
+
+
+.grid-skill{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.skills{
+    margin-top:40px;
+    padding-left: 20px;
+}
+
+
+.item-skill{
+    background-color:#ffffff;
+}
+
+.item-skill:hover{
+    scale: 1.04; 
+    transition:all 0.3s ease;
+}
+
+.header-item-skill{
+    background-color: #444;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+
+}
+.high-light{
+    color: white;
+}
+.edi{
+    color: blue;
+}
+.gui{
+    color: red;
+}
+.learn{
+    color: #45a049;
+}
+.folen{
+     margin-left: 0px;
+     color: blue;
+}
+.talk{
+    color: aqua;
+}
